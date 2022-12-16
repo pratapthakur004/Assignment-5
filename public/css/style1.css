@@ -1,0 +1,37 @@
+body {
+	margin:  0;
+}
+
+/* *{
+    font-weight: bold;
+} */
+.offerPrice{
+    color: yellowgreen;
+}
+.mrpPrice{
+    color: red;
+}
+/* h2{
+    padding: 10px;
+    margin:30px 0px;
+} */
+.images img{
+    width: 100%;
+}
+.mainbody{
+    background: url("../images/img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 0px;
+    height: 600px;
+}
+.headerset{
+    margin: 40px;
+}
+.showmain{
+    background: url("/images/wallpaper2.png");
+}
+.error{
+    color: red;
+}
+

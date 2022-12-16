@@ -1,0 +1,24 @@
+    let name1 = /^[a-z A-Z]+$/;
+    let email1 = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let pass1 = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,24}$/;
+    let nameerr;
+    let emailerr;
+    let passworderr;
+
+
+if (name1.test(bodyData.name) && email1.test(bodyData.email) && pass1.test(bodyData.password)) {
+
+
+    }
+
+
+
+        else {
+            // validations messages
+            if (!name1.test(bodyData.name))
+                nameerr = 'Name :Enter only letters and spaces'
+            if (!email1.test(bodyData.email))
+                emailerr = 'Email :Enter correct email address'
+            if (!pass1.test(bodyData.password))
+                passworderr = 'Password : Password must contains atleaest 8 to 24 characters and must include special symbols, small letters, capital letters and numbers'
+        }
